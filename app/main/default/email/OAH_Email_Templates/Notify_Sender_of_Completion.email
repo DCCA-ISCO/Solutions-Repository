@@ -1,0 +1,11 @@
+Your delegated task has been completed.
+
+Record Link: https://dccasolution.lightning.force.com/lightning/r/OAH_Task__c/{!OAH_Task__c.Id}/view
+Task ID: {!OAH_Task__c.Name}
+Task Name: {!OAH_Task__c.Task_Name__c}
+Subject: {!OAH_Task__c.Subject__c}
+Assigned To: {!OAH_Task__c.Assigned_To__c}
+
+{!CASE(OAH_Task__c.OAH_Case_NumberId__c, "", "", "Case: https://dccasolution.lightning.force.com/lightning/r/OAH_Case_List__c/")}{!OAH_Task__c.OAH_Case_NumberId__c}{!CASE(OAH_Task__c.OAH_Case_NumberId__c, "", "", "/view")}
+{!CASE(OAH_Task__c.OAH_EventId__c, "", "", "Event: https://dccasolution.lightning.force.com/lightning/r/OAH_Event__c/")}{!OAH_Task__c.OAH_EventId__c}{!CASE(OAH_Task__c.OAH_EventId__c, "", "", "/view")}
+{!CASE(OAH_Task__c.OAH_OrderId__c, "", "", "Order: https://dccasolution.lightning.force.com/lightning/r/OAH_Order__c/")}{!OAH_Task__c.OAH_OrderId__c}{!CASE(OAH_Task__c.OAH_OrderId__c, "", "", "/view")}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>Case_Number_No_Edit</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ ISCHANGED(Name),
+ NOT( 
+   OR($Profile.Name = &quot;System Administrator&quot;,
+      BEGINS( $User.Title , &quot;Legal Clerk&quot; ),
+      BEGINS( $User.Title , &quot;Senior Hearings Officer&quot;))))</errorConditionFormula>
+        <errorMessage>Cannot Change Case Number   (see OAH Case validation rule)</errorMessage>
+    </validationRules>
+</CustomObject>

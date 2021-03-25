@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Event_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Location</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oahu</fullName>
+                    <default>true</default>
+                    <label>Oahu</label>
+                </value>
+                <value>
+                    <fullName>Hilo</fullName>
+                    <default>false</default>
+                    <label>Hilo</label>
+                </value>
+                <value>
+                    <fullName>Kona</fullName>
+                    <default>false</default>
+                    <label>Kona</label>
+                </value>
+                <value>
+                    <fullName>Maui</fullName>
+                    <default>false</default>
+                    <label>Maui</label>
+                </value>
+                <value>
+                    <fullName>Kauai</fullName>
+                    <default>false</default>
+                    <label>Kauai</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

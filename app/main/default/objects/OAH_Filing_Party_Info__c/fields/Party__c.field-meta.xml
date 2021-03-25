@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Party__c</fullName>
+        <description>Which party of the case the received date is related to.</description>
+        <externalId>false</externalId>
+        <label>Party</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Petitioner-Attorney</fullName>
+                    <default>false</default>
+                    <label>Petitioner-Attorney</label>
+                </value>
+                <value>
+                    <fullName>Petitioner-Pro Se</fullName>
+                    <default>false</default>
+                    <label>Petitioner-Pro Se</label>
+                </value>
+                <value>
+                    <fullName>Respondent-Attorney</fullName>
+                    <default>false</default>
+                    <label>Respondent-Attorney</label>
+                </value>
+                <value>
+                    <fullName>Respondent-Pro Se</fullName>
+                    <default>false</default>
+                    <label>Respondent-Pro Se</label>
+                </value>
+                <value>
+                    <fullName>Intervenor-Attorney</fullName>
+                    <default>false</default>
+                    <label>Intervenor-Attorney</label>
+                </value>
+                <value>
+                    <fullName>Intervenor-Pro Se</fullName>
+                    <default>false</default>
+                    <label>Intervenor-Pro Se</label>
+                </value>
+                <value>
+                    <fullName>Court</fullName>
+                    <default>false</default>
+                    <label>Court</label>
+                </value>
+                <value>
+                    <fullName>DCCA</fullName>
+                    <default>false</default>
+                    <label>DCCA</label>
+                </value>
+                <value>
+                    <fullName>OAH</fullName>
+                    <default>false</default>
+                    <label>OAH</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

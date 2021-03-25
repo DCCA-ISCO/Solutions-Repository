@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Sequential_Number_Length__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The length of the auto-generated sequential number.  A length of 3 with a generated value of 1 will appear as &apos;-001&apos; in the Case Number.</inlineHelpText>
+        <label>Sequential Number Length</label>
+        <precision>1</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

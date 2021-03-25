@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Additional Appeal Outcome</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Additional Appeal Outcomes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appeal Outcome --></label>
+        <name>Appeal_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Affirmed</masterLabel>
+            <translation><!-- Affirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remanded</masterLabel>
+            <translation><!-- Remanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed</masterLabel>
+            <translation><!-- Reversed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division Agency --></label>
+        <name>Division_Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case Number --></label>
+        <name>OAH_Case_Number__c</name>
+        <relationshipLabel><!-- OAH Additional Appeal Outcomes --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Additional Appeal Outcome Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

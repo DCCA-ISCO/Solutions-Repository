@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Expense</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Expenses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Airfare --></label>
+        <name>Airfare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Car Rental Company --></label>
+        <name>Car_Rental_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Description --></label>
+        <name>Expense_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hotel --></label>
+        <name>Hotel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incidentals Description --></label>
+        <name>Incidentals_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incidentals --></label>
+        <name>Incidentals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of Airline --></label>
+        <name>Name_of_Airline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of Hotel --></label>
+        <name>Name_of_Hotel__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case ID --></label>
+        <name>OAH_Case_Number__c</name>
+        <relationshipLabel><!-- OAH Expenses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parking Company --></label>
+        <name>Parking_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parking --></label>
+        <name>Parking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Diem Description --></label>
+        <name>Per_Diem_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Diem --></label>
+        <name>Per_Diem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rental Car --></label>
+        <name>Rental_Car__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Date --></label>
+        <name>To_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Expenses --></label>
+        <name>Total_Expenses__c</name>
+    </fields>
+    <layouts>
+        <layout>OAH Expense Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

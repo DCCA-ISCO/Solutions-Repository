@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Division_Agency__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(OAH_Case_Number__r.Division_Agency__c)</formula>
+        <label>Division Agency</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Event_Room__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Room</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Event_Location__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hearings Room 1</fullName>
+                    <default>false</default>
+                    <label>Hearings Room 1</label>
+                </value>
+                <value>
+                    <fullName>Hearings Room 1 (multi-day hearing)</fullName>
+                    <default>false</default>
+                    <label>Hearings Room 1 (multi-day hearing)</label>
+                </value>
+                <value>
+                    <fullName>Hearings Room 2</fullName>
+                    <default>false</default>
+                    <label>Hearings Room 2</label>
+                </value>
+                <value>
+                    <fullName>James Kaliokalani</fullName>
+                    <default>false</default>
+                    <label>James Kaliokalani</label>
+                </value>
+                <value>
+                    <fullName>King Kalakaua</fullName>
+                    <default>false</default>
+                    <label>King Kalakaua</label>
+                </value>
+                <value>
+                    <fullName>MICP Room</fullName>
+                    <default>false</default>
+                    <label>MICP Room</label>
+                </value>
+                <value>
+                    <fullName>Prince Leleiohoku</fullName>
+                    <default>false</default>
+                    <label>Prince Leleiohoku</label>
+                </value>
+                <value>
+                    <fullName>Princess Likelike</fullName>
+                    <default>false</default>
+                    <label>Princess Likelike</label>
+                </value>
+                <value>
+                    <fullName>Queen Liliuokalani</fullName>
+                    <default>false</default>
+                    <label>Queen Liliuokalani</label>
+                </value>
+                <value>
+                    <fullName>Ralph Rosenberg-Maui</fullName>
+                    <default>false</default>
+                    <label>Ralph Rosenberg-Maui</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Hearings Room 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Hearings Room 1 (multi-day hearing)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Hearings Room 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>James Kaliokalani</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>King Kalakaua</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>MICP Room</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Prince Leleiohoku</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Princess Likelike</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Queen Liliuokalani</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <controllingFieldValue>Hilo</controllingFieldValue>
+                <controllingFieldValue>Kona</controllingFieldValue>
+                <controllingFieldValue>Maui</controllingFieldValue>
+                <controllingFieldValue>Kauai</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maui</controllingFieldValue>
+                <valueName>Ralph Rosenberg-Maui</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

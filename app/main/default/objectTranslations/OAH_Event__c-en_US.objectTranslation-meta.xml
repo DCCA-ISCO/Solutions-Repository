@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Events</value>
+    </caseValues>
+    <fields>
+        <label><!-- Court Reporter --></label>
+        <name>Court_Reporter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Address --></label>
+        <name>Event_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Date --></label>
+        <name>Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>Event_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Location --></label>
+        <name>Event_Location__c</name>
+        <picklistValues>
+            <masterLabel>Hilo</masterLabel>
+            <translation><!-- Hilo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kauai</masterLabel>
+            <translation><!-- Kauai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kona</masterLabel>
+            <translation><!-- Kona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maui</masterLabel>
+            <translation><!-- Maui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oahu</masterLabel>
+            <translation><!-- Oahu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Notes --></label>
+        <name>Event_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Phone --></label>
+        <name>Event_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Room --></label>
+        <name>Event_Room__c</name>
+        <picklistValues>
+            <masterLabel>Hearings Room 1</masterLabel>
+            <translation><!-- Hearings Room 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hearings Room 1 (multi-day hearing)</masterLabel>
+            <translation><!-- Hearings Room 1 (multi-day hearing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hearings Room 2</masterLabel>
+            <translation><!-- Hearings Room 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>James Kaliokalani</masterLabel>
+            <translation><!-- James Kaliokalani --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>King Kalakaua</masterLabel>
+            <translation><!-- King Kalakaua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MICP Room</masterLabel>
+            <translation><!-- MICP Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prince Leleiohoku</masterLabel>
+            <translation><!-- Prince Leleiohoku --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Princess Likelike</masterLabel>
+            <translation><!-- Princess Likelike --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queen Liliuokalani</masterLabel>
+            <translation><!-- Queen Liliuokalani --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ralph Rosenberg-Maui</masterLabel>
+            <translation><!-- Ralph Rosenberg-Maui --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Start Date/Time --></label>
+        <name>Event_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Status --></label>
+        <name>Event_Status__c</name>
+        <picklistValues>
+            <masterLabel>Archived</masterLabel>
+            <translation><!-- Archived --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation><!-- Current --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Time --></label>
+        <name>Event_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Further Hearing (FH)</masterLabel>
+            <translation><!-- Further Hearing (FH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Further Status Conference (FSC)</masterLabel>
+            <translation><!-- Further Status Conference (FSC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hearing (H)</masterLabel>
+            <translation><!-- Hearing (H) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motion (M)</masterLabel>
+            <translation><!-- Motion (M) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oral Argument (OA)</masterLabel>
+            <translation><!-- Oral Argument (OA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Hearing Conference (PHC)</masterLabel>
+            <translation><!-- Pre-Hearing Conference (PHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescheduled Hearing (RH)</masterLabel>
+            <translation><!-- Rescheduled Hearing (RH) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescheduled Motion (RM)</masterLabel>
+            <translation><!-- Rescheduled Motion (RM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescheduled Oral Argument (ROA)</masterLabel>
+            <translation><!-- Rescheduled Oral Argument (ROA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescheduled Pre-Hearing Conference (RPHC)</masterLabel>
+            <translation><!-- Rescheduled Pre-Hearing Conference (RPHC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescheduled Status Conference (RSC)</masterLabel>
+            <translation><!-- Rescheduled Status Conference (RSC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status Conference (SC)</masterLabel>
+            <translation><!-- Status Conference (SC) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Type abbr2 --></label>
+        <name>Event_Type_abbr2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type abbr --></label>
+        <name>Event_Type_abbr__c</name>
+    </fields>
+    <fields>
+        <label><!-- HO Nickname --></label>
+        <name>HO_Nickname__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case Number --></label>
+        <name>OAH_Case_Number__c</name>
+        <relationshipLabel><!-- OAH Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Petitioner --></label>
+        <name>OAH_Petitioner__c</name>
+        <relationshipLabel><!-- OAH Events (Attorney-Petitioners) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Respondent --></label>
+        <name>OAH_Respondent__c</name>
+        <relationshipLabel><!-- OAH Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OldRecordId --></label>
+        <name>OldRecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Case Number --></label>
+        <name>Old_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Petitioner --></label>
+        <name>Old_Petitioner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Record ID --></label>
+        <name>Old_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Respondent --></label>
+        <name>Old_Respondent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Petitioner-Old --></label>
+        <name>Petitioner__c</name>
+        <relationshipLabel><!-- OAH Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proceeding --></label>
+        <name>Proceeding__c</name>
+        <picklistValues>
+            <masterLabel>FH</masterLabel>
+            <translation><!-- FH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSC</masterLabel>
+            <translation><!-- FSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H</masterLabel>
+            <translation><!-- H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OA</masterLabel>
+            <translation><!-- OA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PH</masterLabel>
+            <translation><!-- PH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RH</masterLabel>
+            <translation><!-- RH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RPH</masterLabel>
+            <translation><!-- RPH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSC</masterLabel>
+            <translation><!-- RSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Respondent-Old --></label>
+        <name>Respondent__c</name>
+        <relationshipLabel><!-- OAH Events (Respondent) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Attend Via Phone --></label>
+        <name>Via_Phone__c</name>
+        <picklistValues>
+            <masterLabel>Both (B)</masterLabel>
+            <translation><!-- Both (B) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petitioner (P)</masterLabel>
+            <translation><!-- Petitioner (P) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respondent (R)</masterLabel>
+            <translation><!-- Respondent (R) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Via Phone abbr2 --></label>
+        <name>Via_Phone_abbr2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Via Phone abbr --></label>
+        <name>Via_Phone_abbr__c</name>
+    </fields>
+    <layouts>
+        <layout>OAH Event Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Conga_Composer_OAH_Weekly_Events --></label>
+        <name>Conga_Composer_OAH_Weekly_Events</name>
+    </webLinks>
+</CustomObjectTranslation>

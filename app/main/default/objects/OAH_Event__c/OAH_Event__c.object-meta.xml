@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>OAH_Event_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>OAH_Event_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Event_Type__c</fields>
+        <fields>OAH_Case_Number__c</fields>
+        <label>OAH Event Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Court_Reporter__c</fullName>
+        <externalId>false</externalId>
+        <label>Court Reporter</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Address__c</fullName>
+        <description>Address of the location where the event will be held (for neighbor islands).</description>
+        <externalId>false</externalId>
+        <label>Event Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Event_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>DateValue( Event_Start_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Description</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Location</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Oahu</fullName>
+                    <default>true</default>
+                    <label>Oahu</label>
+                </value>
+                <value>
+                    <fullName>Hilo</fullName>
+                    <default>false</default>
+                    <label>Hilo</label>
+                </value>
+                <value>
+                    <fullName>Kona</fullName>
+                    <default>false</default>
+                    <label>Kona</label>
+                </value>
+                <value>
+                    <fullName>Maui</fullName>
+                    <default>false</default>
+                    <label>Maui</label>
+                </value>
+                <value>
+                    <fullName>Kauai</fullName>
+                    <default>false</default>
+                    <label>Kauai</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Notes</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Event_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Phone</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Room__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Room</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Event_Location__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hearings Room 1</fullName>
+                    <default>false</default>
+                    <label>Hearings Room 1</label>
+                </value>
+                <value>
+                    <fullName>Hearings Room 1 (multi-day hearing)</fullName>
+                    <default>false</default>
+                    <label>Hearings Room 1 (multi-day hearing)</label>
+                </value>
+                <value>
+                    <fullName>Hearings Room 2</fullName>
+                    <default>false</default>
+                    <label>Hearings Room 2</label>
+                </value>
+                <value>
+                    <fullName>James Kaliokalani</fullName>
+                    <default>false</default>
+                    <label>James Kaliokalani</label>
+                </value>
+                <value>
+                    <fullName>King Kalakaua</fullName>
+                    <default>false</default>
+                    <label>King Kalakaua</label>
+                </value>
+                <value>
+                    <fullName>MICP Room</fullName>
+                    <default>false</default>
+                    <label>MICP Room</label>
+                </value>
+                <value>
+                    <fullName>Prince Leleiohoku</fullName>
+                    <default>false</default>
+                    <label>Prince Leleiohoku</label>
+                </value>
+                <value>
+                    <fullName>Princess Likelike</fullName>
+                    <default>false</default>
+                    <label>Princess Likelike</label>
+                </value>
+                <value>
+                    <fullName>Queen Liliuokalani</fullName>
+                    <default>false</default>
+                    <label>Queen Liliuokalani</label>
+                </value>
+                <value>
+                    <fullName>Ralph Rosenberg-Maui</fullName>
+                    <default>false</default>
+                    <label>Ralph Rosenberg-Maui</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Hearings Room 1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Hearings Room 1 (multi-day hearing)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Hearings Room 2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>James Kaliokalani</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>King Kalakaua</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>MICP Room</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Prince Leleiohoku</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Princess Likelike</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <valueName>Queen Liliuokalani</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Oahu</controllingFieldValue>
+                <controllingFieldValue>Hilo</controllingFieldValue>
+                <controllingFieldValue>Kona</controllingFieldValue>
+                <controllingFieldValue>Maui</controllingFieldValue>
+                <controllingFieldValue>Kauai</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Maui</controllingFieldValue>
+                <valueName>Ralph Rosenberg-Maui</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Start Date/Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Event_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Current</fullName>
+                    <default>false</default>
+                    <label>Current</label>
+                </value>
+                <value>
+                    <fullName>Archived</fullName>
+                    <default>false</default>
+                    <label>Archived</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>/* 36,000,000 = 10 * 60 * 60 * 1000 */
+/* 79,200,000 = 22 * 60 * 60 * 1000 */
+/*            HH   MM   SS   MS   */
+
+/* IF(logical_test, value_if_true, value_if_false)  */
+IF( HOUR( TIMEVALUE( Event_Start_Date__c ) - 36000000) &lt; 12,
+TEXT( HOUR( TIMEVALUE( Event_Start_Date__c ) - 36000000) ) &amp; &quot;:&quot; &amp; LPAD( TEXT( MINUTE( TIMEVALUE( Event_Start_Date__c ))), 2, &quot;0&quot;) &amp; &quot; AM&quot;,
+TEXT( HOUR( TIMEVALUE( Event_Start_Date__c ) - 79200000) ) &amp; &quot;:&quot; &amp; LPAD( TEXT( MINUTE( TIMEVALUE( Event_Start_Date__c ))), 2, &quot;0&quot;) &amp; &quot; PM&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Hearing Conference (PHC)</fullName>
+                    <default>false</default>
+                    <label>Pre-Hearing Conference (PHC)</label>
+                </value>
+                <value>
+                    <fullName>Status Conference (SC)</fullName>
+                    <default>false</default>
+                    <label>Status Conference (SC)</label>
+                </value>
+                <value>
+                    <fullName>Hearing (H)</fullName>
+                    <default>false</default>
+                    <label>Hearing (H)</label>
+                </value>
+                <value>
+                    <fullName>Motion (M)</fullName>
+                    <default>false</default>
+                    <label>Motion (M)</label>
+                </value>
+                <value>
+                    <fullName>Further Hearing (FH)</fullName>
+                    <default>false</default>
+                    <label>Further Hearing (FH)</label>
+                </value>
+                <value>
+                    <fullName>Further Status Conference (FSC)</fullName>
+                    <default>false</default>
+                    <label>Further Status Conference (FSC)</label>
+                </value>
+                <value>
+                    <fullName>Oral Argument (OA)</fullName>
+                    <default>false</default>
+                    <label>Oral Argument (OA)</label>
+                </value>
+                <value>
+                    <fullName>Rescheduled Hearing (RH)</fullName>
+                    <default>false</default>
+                    <label>Rescheduled Hearing (RH)</label>
+                </value>
+                <value>
+                    <fullName>Rescheduled Pre-Hearing Conference (RPHC)</fullName>
+                    <default>false</default>
+                    <label>Rescheduled Pre-Hearing Conference (RPHC)</label>
+                </value>
+                <value>
+                    <fullName>Rescheduled Status Conference (RSC)</fullName>
+                    <default>false</default>
+                    <label>Rescheduled Status Conference (RSC)</label>
+                </value>
+                <value>
+                    <fullName>Rescheduled Oral Argument (ROA)</fullName>
+                    <default>false</default>
+                    <label>Rescheduled Oral Argument (ROA)</label>
+                </value>
+                <value>
+                    <fullName>Rescheduled Motion (RM)</fullName>
+                    <default>false</default>
+                    <label>Rescheduled Motion (RM)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Event_Type_abbr2__c</fullName>
+        <externalId>false</externalId>
+        <formula>MID(
+   Event_Type_abbr__c ,
+   FIND(&quot;(&quot;, Event_Type_abbr__c) + 1,
+   FIND(&quot;)&quot;, Event_Type_abbr__c) - FIND(&quot;(&quot;, Event_Type_abbr__c) - 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Type abbr2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Type_abbr__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Event_Type__c,
+     &quot;&quot;, &quot;&quot;,
+TEXT(Event_Type__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Type abbr</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HO_Nickname__c</fullName>
+        <externalId>false</externalId>
+        <formula>OAH_Case_Number__r.Hearings_Officer__r.CommunityNickname</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>HO Nickname</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAH_Case_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>OAH Case Number</label>
+        <referenceTo>OAH_Case_List__c</referenceTo>
+        <relationshipLabel>OAH Events</relationshipLabel>
+        <relationshipName>OAH_Events</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>OAH_Petitioner__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Petitioner</label>
+        <referenceTo>OAH_Contact__c</referenceTo>
+        <relationshipLabel>OAH Events (Attorney-Petitioners)</relationshipLabel>
+        <relationshipName>OAH_Events2</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OAH_Respondent__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Respondent</label>
+        <referenceTo>OAH_Contact__c</referenceTo>
+        <relationshipLabel>OAH Events</relationshipLabel>
+        <relationshipName>OAH_Events</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OldRecordId__c</fullName>
+        <externalId>false</externalId>
+        <label>OldRecordId</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_Case_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Old Case Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_Petitioner__c</fullName>
+        <externalId>false</externalId>
+        <label>Old Petitioner</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_Record_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Old Record ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Old_Respondent__c</fullName>
+        <externalId>false</externalId>
+        <label>Old Respondent</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Petitioner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Petitioner-Old</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>OAH Events</relationshipLabel>
+        <relationshipName>OAH_Events</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Proceeding__c</fullName>
+        <externalId>false</externalId>
+        <label>Proceeding</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FH</fullName>
+                    <default>false</default>
+                    <label>FH</label>
+                </value>
+                <value>
+                    <fullName>FSC</fullName>
+                    <default>false</default>
+                    <label>FSC</label>
+                </value>
+                <value>
+                    <fullName>H</fullName>
+                    <default>false</default>
+                    <label>H</label>
+                </value>
+                <value>
+                    <fullName>M</fullName>
+                    <default>false</default>
+                    <label>M</label>
+                </value>
+                <value>
+                    <fullName>OA</fullName>
+                    <default>false</default>
+                    <label>OA</label>
+                </value>
+                <value>
+                    <fullName>PH</fullName>
+                    <default>false</default>
+                    <label>PH</label>
+                </value>
+                <value>
+                    <fullName>RH</fullName>
+                    <default>false</default>
+                    <label>RH</label>
+                </value>
+                <value>
+                    <fullName>RPH</fullName>
+                    <default>false</default>
+                    <label>RPH</label>
+                </value>
+                <value>
+                    <fullName>RSC</fullName>
+                    <default>false</default>
+                    <label>RSC</label>
+                </value>
+                <value>
+                    <fullName>SC</fullName>
+                    <default>false</default>
+                    <label>SC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Respondent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Respondent-Old</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>OAH Events (Respondent)</relationshipLabel>
+        <relationshipName>OAH_Events1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Via_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Attend Via Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Petitioner (P)</fullName>
+                    <default>false</default>
+                    <label>Petitioner (P)</label>
+                </value>
+                <value>
+                    <fullName>Respondent (R)</fullName>
+                    <default>false</default>
+                    <label>Respondent (R)</label>
+                </value>
+                <value>
+                    <fullName>Both (B)</fullName>
+                    <default>false</default>
+                    <label>Both (B)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Via_Phone_abbr2__c</fullName>
+        <externalId>false</externalId>
+        <formula>MID(
+Via_Phone_abbr__c,
+FIND(&quot;(&quot;, Via_Phone_abbr__c) + 1,
+FIND(&quot;)&quot;, Via_Phone_abbr__c) - FIND(&quot;(&quot;, Via_Phone_abbr__c) - 1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Via Phone abbr2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Via_Phone_abbr__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(Via_Phone__c ,
+&quot;&quot;, &quot;&quot;,
+TEXT(Via_Phone__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Via Phone abbr</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>OAH Event</label>
+    <listViews>
+        <fullName>All_custom</fullName>
+        <columns>NAME</columns>
+        <columns>OAH_Case_Number__c</columns>
+        <columns>Event_Type__c</columns>
+        <columns>Event_Description__c</columns>
+        <columns>Event_Start_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Event{YYYY}{0000}</displayFormat>
+        <label>OAH Event Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>OAH Events</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <searchResultsAdditionalFields>OAH_Case_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Event_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Event_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Event_Start_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Conga_Composer_OAH_Weekly_Events</fullName>
+        <availability>online</availability>
+        <description>Created by Conga Solution Manager. Record link: https://hi-dcca--iscodev--apxtconga4.visualforce.com/a1Fr000000CPgSWEA1.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>OAH Weekly Events</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!OAH_Event__c.Id}
+
+&amp;QueryId=[ThisWeek]a19r0000002PXSq,
+[NextWeek]a19r0000002PXSv,
+[2WeeksOut]a19r0000002PmRs
+
+&amp;TemplateId=a1Hr0000001qu5a</url>
+        <width>900</width>
+    </webLinks>
+</CustomObject>

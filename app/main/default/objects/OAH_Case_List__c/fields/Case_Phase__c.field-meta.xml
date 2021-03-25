@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Case_Phase__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Phase</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Case_Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Intake</fullName>
+                    <default>true</default>
+                    <label>Intake</label>
+                </value>
+                <value>
+                    <fullName>Review</fullName>
+                    <default>false</default>
+                    <label>Review</label>
+                </value>
+                <value>
+                    <fullName>Hearing</fullName>
+                    <default>false</default>
+                    <label>Hearing</label>
+                </value>
+                <value>
+                    <fullName>Appeal</fullName>
+                    <default>false</default>
+                    <label>Appeal</label>
+                </value>
+                <value>
+                    <fullName>Remand</fullName>
+                    <default>false</default>
+                    <label>Remand</label>
+                </value>
+                <value>
+                    <fullName>Not Appealed</fullName>
+                    <default>false</default>
+                    <label>Not Appealed</label>
+                </value>
+                <value>
+                    <fullName>Close Case</fullName>
+                    <default>false</default>
+                    <label>Close Case</label>
+                </value>
+                <value>
+                    <fullName>Reject</fullName>
+                    <default>false</default>
+                    <label>Reject</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Open</controllingFieldValue>
+                <valueName>Intake</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Open</controllingFieldValue>
+                <valueName>Review</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Open</controllingFieldValue>
+                <controllingFieldValue>Re-Open</controllingFieldValue>
+                <valueName>Hearing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Open</controllingFieldValue>
+                <controllingFieldValue>Re-Open</controllingFieldValue>
+                <valueName>Appeal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Open</controllingFieldValue>
+                <controllingFieldValue>Re-Open</controllingFieldValue>
+                <valueName>Remand</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Open</controllingFieldValue>
+                <controllingFieldValue>Re-Open</controllingFieldValue>
+                <valueName>Not Appealed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reject</controllingFieldValue>
+                <valueName>Reject</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Close Case</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+</CustomObject>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Consolidated_Case__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check the box if this is a Consolidated Case File.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box only if this is a MAIN case that has secondary cases attached to it.  DO NOT check this box if this is a SECONDARY case.</inlineHelpText>
+        <label>Consolidated Case</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Board__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Boards listed here will result in OAH being able to create a new Case Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When creating cases, cases prefixed by these boards will auto-generate the next available sequential number.
+examples:  PDH, ACC-LIC, *-LIC</inlineHelpText>
+        <label>Board</label>
+        <length>10</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+</CustomObject>

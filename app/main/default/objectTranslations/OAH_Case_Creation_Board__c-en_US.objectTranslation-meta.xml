@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Case Creation Board</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Case Creation Boards</value>
+    </caseValues>
+    <fields>
+        <help><!-- When creating cases, cases prefixed by these boards will auto-generate the next available sequential number.
+examples:  PDH, ACC-LIC, *-LIC --></help>
+        <label><!-- Board --></label>
+        <name>Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- The length of the auto-generated sequential number.  A length of 3 with a generated value of 1 will appear as &apos;-001&apos; in the Case Number. --></help>
+        <label><!-- Sequential Number Length --></label>
+        <name>Sequential_Number_Length__c</name>
+    </fields>
+    <layouts>
+        <layout>OAH Case Creation Board Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

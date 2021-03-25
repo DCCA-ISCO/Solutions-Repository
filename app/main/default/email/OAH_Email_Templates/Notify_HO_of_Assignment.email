@@ -1,0 +1,6 @@
+The following case has been assigned to you.
+
+Record link: https://dccasolution.lightning.force.com/lightning/r/OAH_Case_List__c/{!OAH_Case_List__c.Id}/view
+Case Name: {!OAH_Case_List__c.Case_Name__c}
+Case Number: {!OAH_Case_List__c.Name}
+Division/Agency: {!OAH_Case_List__c.Division_Agency__c}

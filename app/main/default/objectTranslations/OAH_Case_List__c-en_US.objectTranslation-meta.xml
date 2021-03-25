@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Case</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Cases</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Bond Info --></label>
+        <name>Bond_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Case_All_Fields --></label>
+        <name>Case_All_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Storage Info --></label>
+        <name>Storage_Info</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Appeal Outcome --></label>
+        <name>Appeal_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Affirmed</masterLabel>
+            <translation><!-- Affirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remanded</masterLabel>
+            <translation><!-- Remanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed</masterLabel>
+            <translation><!-- Reversed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed&amp;Remanded</masterLabel>
+            <translation><!-- Reversed&amp;Remanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Appeal Transmitted to AG-Court Date --></label>
+        <name>Appeal_Transmitted_to_AG_Court_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Boards and Commissions --></label>
+        <name>Boards_and_Commissions__c</name>
+        <picklistValues>
+            <masterLabel>ACC</masterLabel>
+            <translation><!-- ACC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACU</masterLabel>
+            <translation><!-- ACU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARP</masterLabel>
+            <translation><!-- ARP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAR</masterLabel>
+            <translation><!-- BAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BEH</masterLabel>
+            <translation><!-- BEH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOX</masterLabel>
+            <translation><!-- BOX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEM</masterLabel>
+            <translation><!-- CEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHI</masterLabel>
+            <translation><!-- CHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLB</masterLabel>
+            <translation><!-- CLB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COL</masterLabel>
+            <translation><!-- COL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEN</masterLabel>
+            <translation><!-- DEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOP</masterLabel>
+            <translation><!-- DOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENG</masterLabel>
+            <translation><!-- ENG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENP</masterLabel>
+            <translation><!-- ENP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EVM</masterLabel>
+            <translation><!-- EVM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAD</masterLabel>
+            <translation><!-- HAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAS</masterLabel>
+            <translation><!-- MAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBS</masterLabel>
+            <translation><!-- MBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MED</masterLabel>
+            <translation><!-- MED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFT</masterLabel>
+            <translation><!-- MFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA</masterLabel>
+            <translation><!-- MMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MVI</masterLabel>
+            <translation><!-- MVI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAT</masterLabel>
+            <translation><!-- NAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NHA</masterLabel>
+            <translation><!-- NHA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPT</masterLabel>
+            <translation><!-- OPT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OST</masterLabel>
+            <translation><!-- OST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PCO</masterLabel>
+            <translation><!-- PCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDG</masterLabel>
+            <translation><!-- PDG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHA</masterLabel>
+            <translation><!-- PHA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSY</masterLabel>
+            <translation><!-- PSY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTP</masterLabel>
+            <translation><!-- PTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS</masterLabel>
+            <translation><!-- PTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REA</masterLabel>
+            <translation><!-- REA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REC</masterLabel>
+            <translation><!-- REC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNS</masterLabel>
+            <translation><!-- RNS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSW</masterLabel>
+            <translation><!-- RSW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RTP</masterLabel>
+            <translation><!-- RTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPE</masterLabel>
+            <translation><!-- SPE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAR</masterLabel>
+            <translation><!-- TAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSP</masterLabel>
+            <translation><!-- TSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ULT</masterLabel>
+            <translation><!-- ULT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VET</masterLabel>
+            <translation><!-- VET --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bond Amount --></label>
+        <name>Bond_Amount__c</name>
+        <picklistValues>
+            <masterLabel>$10,000</masterLabel>
+            <translation><!-- $10,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$1000</masterLabel>
+            <translation><!-- $1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$2000</masterLabel>
+            <translation><!-- $2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bond Notes --></label>
+        <name>Bond_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bond Payment Method --></label>
+        <name>Bond_Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protest</masterLabel>
+            <translation><!-- Protest --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Creation Board Override --></label>
+        <name>Case_Creation_Board_Override__c</name>
+        <picklistValues>
+            <masterLabel>*-CN</masterLabel>
+            <translation><!-- *-CN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>*-DR</masterLabel>
+            <translation><!-- *-DR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>*-LIC</masterLabel>
+            <translation><!-- *-LIC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Creation Boards --></label>
+        <name>Case_Creation_Boards__c</name>
+        <picklistValues>
+            <masterLabel>ATX</masterLabel>
+            <translation><!-- ATX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW</masterLabel>
+            <translation><!-- NEW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDH</masterLabel>
+            <translation><!-- PDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SM</masterLabel>
+            <translation><!-- SM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM</masterLabel>
+            <translation><!-- TM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Case Name is a free-form description of the case.  Case Number generally follows one of the following formats:  Board-Year-Number (CLB-2019-001) or Board-Type-Year-Number (CLB-LIC-2019-001).  Do not specify sequential number if it is to be auto-generated. --></help>
+        <label><!-- Case Name --></label>
+        <name>Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Phase --></label>
+        <name>Case_Phase__c</name>
+        <picklistValues>
+            <masterLabel>Appeal</masterLabel>
+            <translation><!-- Appeal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close Case</masterLabel>
+            <translation><!-- Close Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hearing</masterLabel>
+            <translation><!-- Hearing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intake</masterLabel>
+            <translation><!-- Intake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Appealed</masterLabel>
+            <translation><!-- Not Appealed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remand</masterLabel>
+            <translation><!-- Remand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review</masterLabel>
+            <translation><!-- Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Status --></label>
+        <name>Case_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Open</masterLabel>
+            <translation><!-- Re-Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Type --></label>
+        <name>Case_Type__c</name>
+        <picklistValues>
+            <masterLabel>Appeal</masterLabel>
+            <translation><!-- Appeal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CN</masterLabel>
+            <translation><!-- CN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cease &amp; Desist</masterLabel>
+            <translation><!-- Cease &amp; Desist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citation</masterLabel>
+            <translation><!-- Citation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dec Relief</masterLabel>
+            <translation><!-- Dec Relief --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability Benefits</masterLabel>
+            <translation><!-- Disability Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disciplinary</masterLabel>
+            <translation><!-- Disciplinary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LC</masterLabel>
+            <translation><!-- LC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lic Den</masterLabel>
+            <translation><!-- Lic Den --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License-Other</masterLabel>
+            <translation><!-- License-Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSC</masterLabel>
+            <translation><!-- OSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIP</masterLabel>
+            <translation><!-- PIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement Benefits</masterLabel>
+            <translation><!-- Retirement Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SM</masterLabel>
+            <translation><!-- SM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TM</masterLabel>
+            <translation><!-- TM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Civil No. --></label>
+        <name>Civil_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box only if this is a MAIN case that has secondary cases attached to it.  DO NOT check this box if this is a SECONDARY case. --></help>
+        <label><!-- Consolidated Case --></label>
+        <name>Consolidated_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- OAH Cases (Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Court Decision Comments --></label>
+        <name>Court_Decision_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Court Decision --></label>
+        <name>Court_Decision__c</name>
+        <picklistValues>
+            <masterLabel>Affirmed</masterLabel>
+            <translation><!-- Affirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remanded</masterLabel>
+            <translation><!-- Remanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed</masterLabel>
+            <translation><!-- Reversed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Court Order Date --></label>
+        <name>Court_Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Assigned to Hearings Officer --></label>
+        <name>Date_Assigned_to_Hearings_Officer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Bond Deposited Into General Funds --></label>
+        <name>Date_Bond_Deposited_Into_General_Funds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Bond Received --></label>
+        <name>Date_Bond_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Bond Returned to Petitioner --></label>
+        <name>Date_Bond_Returned_to_Petitioner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Bond Transmitted to Cashier --></label>
+        <name>Date_Bond_Transmitted_to_Cashier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Case Transmitted to Authority --></label>
+        <name>Date_Case_Transmitted_to_Authority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Closed --></label>
+        <name>Date_Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Completed --></label>
+        <name>Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date File Destroyed --></label>
+        <name>Date_File_Destroyed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Filed --></label>
+        <name>Date_Filed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Hearing Requested --></label>
+        <name>Date_Hearing_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Mailed --></label>
+        <name>Date_Mailed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Notice Issued --></label>
+        <name>Date_Notice_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Notice of Appeal/Order Received --></label>
+        <name>Date_Notice_of_AppealOrder_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent to Storage --></label>
+        <name>Date_Sent_to_Storage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Oral Argument --></label>
+        <name>Date_of_Oral_Argument__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Submission of Closing Briefs --></label>
+        <name>Date_of_Submission_of_Closing_Briefs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Adopted</masterLabel>
+            <translation><!-- Adopted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Affirmed</masterLabel>
+            <translation><!-- Affirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Decision</masterLabel>
+            <translation><!-- Final Decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modified</masterLabel>
+            <translation><!-- Modified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remanded</masterLabel>
+            <translation><!-- Remanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed</masterLabel>
+            <translation><!-- Reversed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reversed&amp;Remanded</masterLabel>
+            <translation><!-- Reversed&amp;Remanded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Division-Agency --></label>
+        <name>Division_Agency__c</name>
+        <picklistValues>
+            <masterLabel>BREG</masterLabel>
+            <translation><!-- BREG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAAP</masterLabel>
+            <translation><!-- CAAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFI</masterLabel>
+            <translation><!-- DFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERS</masterLabel>
+            <translation><!-- ERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUTF</masterLabel>
+            <translation><!-- EUTF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HCDA</masterLabel>
+            <translation><!-- HCDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HPEAP</masterLabel>
+            <translation><!-- HPEAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS</masterLabel>
+            <translation><!-- INS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDH</masterLabel>
+            <translation><!-- PDH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC</masterLabel>
+            <translation><!-- PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL</masterLabel>
+            <translation><!-- PVL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO</masterLabel>
+            <translation><!-- RICO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Document Title --></label>
+        <name>Document_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee Amount Paid --></label>
+        <name>Fee_Amount_Paid__c</name>
+        <picklistValues>
+            <masterLabel>$1000</masterLabel>
+            <translation><!-- $1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$200</masterLabel>
+            <translation><!-- $200 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fee Payment Method --></label>
+        <name>Fee_Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fee Required --></label>
+        <name>Fee_Required__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outstanding</masterLabel>
+            <translation><!-- Outstanding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fee Transmitted to Cashier Date --></label>
+        <name>Fee_Transmitted_to_Cashier_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filing Fee Received Date --></label>
+        <name>Filing_Fee_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Order - Proposed Date --></label>
+        <name>Final_Order_Proposed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hearings Officer Notes --></label>
+        <name>Hearings_Officer_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Senior Hearings Officer --></label>
+        <name>Hearings_Officer_Senior__c</name>
+        <relationshipLabel><!-- OAH Cases (Senior Hearings Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hearings Officer text --></label>
+        <name>Hearings_Officer_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hearings Officer --></label>
+        <name>Hearings_Officer__c</name>
+        <relationshipLabel><!-- OAH Cases (Hearings Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Day of Hearing --></label>
+        <name>Last_Day_of_Hearing__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Cons Cases Parent Text --></label>
+        <name>OAH_Cons_Cases_Parent_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Consolidated Cases Parent --></label>
+        <name>OAH_Consolidated_Cases_Parent__c</name>
+        <relationshipLabel><!-- OAH Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Old Record ID --></label>
+        <name>Old_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oral Argument Filing Date --></label>
+        <name>Oral_Argument_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oral Argument Issuance Date --></label>
+        <name>Oral_Argument_Issuance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Bond Amount --></label>
+        <name>Other_Bond_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Storage Appeals Box Number --></label>
+        <name>Storage_Appeals_Box_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Storage Box Number --></label>
+        <name>Storage_Box_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Storage Location --></label>
+        <name>Storage_Location__c</name>
+        <picklistValues>
+            <masterLabel>Access</masterLabel>
+            <translation><!-- Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archive</masterLabel>
+            <translation><!-- Archive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAH</masterLabel>
+            <translation><!-- OAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Storage Notes --></label>
+        <name>Storage_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Storage Original Box Number --></label>
+        <name>Storage_Original_Box_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time of Oral Argument --></label>
+        <name>Time_of_Oral_Argument__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:15 AM</masterLabel>
+            <translation><!-- 10:15 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM</masterLabel>
+            <translation><!-- 10:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:45 AM</masterLabel>
+            <translation><!-- 10:45 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:15 AM</masterLabel>
+            <translation><!-- 11:15 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM</masterLabel>
+            <translation><!-- 11:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:45 AM</masterLabel>
+            <translation><!-- 11:45 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:15 PM</masterLabel>
+            <translation><!-- 12:15 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM</masterLabel>
+            <translation><!-- 12:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:45 PM</masterLabel>
+            <translation><!-- 12:45 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00  PM</masterLabel>
+            <translation><!-- 1:00  PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:15  PM</masterLabel>
+            <translation><!-- 1:15  PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM</masterLabel>
+            <translation><!-- 1:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:45 PM</masterLabel>
+            <translation><!-- 1:45 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:15 PM</masterLabel>
+            <translation><!-- 2:15 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM</masterLabel>
+            <translation><!-- 2:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:45 PM</masterLabel>
+            <translation><!-- 2:45 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:15 PM</masterLabel>
+            <translation><!-- 3:15 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM</masterLabel>
+            <translation><!-- 3:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:45 PM</masterLabel>
+            <translation><!-- 3:45 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:15 PM</masterLabel>
+            <translation><!-- 4:15 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM</masterLabel>
+            <translation><!-- 4:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:45 PM</masterLabel>
+            <translation><!-- 4:45 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:15 AM</masterLabel>
+            <translation><!-- 9:15 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM</masterLabel>
+            <translation><!-- 9:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:45 AM</masterLabel>
+            <translation><!-- 9:45 AM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type of Case File --></label>
+        <name>Type_of_Case_File__c</name>
+    </fields>
+    <layouts>
+        <layout>OAH Case List Custom</layout>
+        <sections>
+            <label><!-- Bond Information --></label>
+            <section>Bond Information</section>
+        </sections>
+        <sections>
+            <label><!-- Case Info --></label>
+            <section>Case Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Filing Fee --></label>
+            <section>Filing Fee</section>
+        </sections>
+        <sections>
+            <label><!-- Other Cases --></label>
+            <section>Other Cases</section>
+        </sections>
+        <sections>
+            <label><!-- Storage Location --></label>
+            <section>Storage Location</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Task --></label>
+        <name>Create_OAH_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>Create_a_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View/Hide Docket --></label>
+        <name>View_Hide_Docket</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot Change Case Number   (see OAH Case validation rule) --></errorMessage>
+        <name>Case_Number_No_Edit</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_Create_Docket --></label>
+        <name>Conga_Composer_Create_Docket</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_temp --></label>
+        <name>Conga_Composer_temp</name>
+    </webLinks>
+</CustomObjectTranslation>

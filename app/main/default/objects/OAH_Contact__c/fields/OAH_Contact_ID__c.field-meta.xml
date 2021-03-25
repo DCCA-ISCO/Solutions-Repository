@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>OAH_Contact_ID__c</fullName>
+        <description>Contact&apos;s first name</description>
+        <displayFormat>Contact-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>OAH Contact ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+</CustomObject>
